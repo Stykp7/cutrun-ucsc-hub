@@ -1,0 +1,27 @@
+track H3K27Ac_fs_hFS1
+type bigWig
+bigDataUrl ../Data/bigWigs/H3K27Ac.fs.hFS1.hg38.ddup.uniq.RPGC.bs10.bw
+shortLabel H3K27Ac hFS1
+longLabel H3K27Ac CUT&RUN formative hFS1
+visibility full
+
+track H3K27Ac_fs_hFS3
+type bigWig
+bigDataUrl ../Data/bigWigs/H3K27Ac.fs.hFS3.hg38.ddup.uniq.RPGC.bs10.bw
+shortLabel H3K27Ac hFS3
+longLabel H3K27Ac CUT&RUN formative hFS3
+visibility full
+
+track H3K27Ac_pr_H9
+type bigWig
+bigDataUrl ../Data/bigWigs/H3K27Ac.pr.H9.hg38.ddup.uniq.RPGC.bs10.bw
+shortLabel H3K27Ac H9
+longLabel H3K27Ac CUT&RUN primed H9
+visibility full
+
+track H3K27Ac_pr_S6
+type bigWig
+bigDataUrl ../Data/bigWigs/H3K27Ac.pr.S6.hg38.ddup.uniq.RPGC.bs10.bw
+shortLabel H3K27Ac S6
+longLabel H3K27Ac CUT&RUN primed S6
+visibility full

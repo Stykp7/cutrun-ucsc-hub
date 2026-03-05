@@ -1,0 +1,5 @@
+hub Kai_CUTRUN
+shortLabel Kai CUT&RUN
+longLabel CUT&RUN histone marks and SMAD2 in hFS and primed hESCs
+genomesFile genomes.txt
+email stykp7@nottingham.ac.uk
