@@ -1,27 +1,319 @@
-track H3K27Ac_fs_hFS1
-type bigWig
-bigDataUrl ../Data/bigWigs/H3K27Ac.fs.hFS1.hg38.ddup.uniq.RPGC.bs10.bw
-shortLabel H3K27Ac hFS1
-longLabel H3K27Ac CUT&RUN formative hFS1
-visibility full
+############################################
+# Kai CUT&RUN Track Hub (hg38)
+# Data hosted on Zenodo record: 18874953
+# Each bigWig is loaded directly via URL
+############################################
 
-track H3K27Ac_fs_hFS3
+##########
+# H3K27Ac
+##########
+track H3K27Ac_comp
+compositeTrack on
+shortLabel H3K27Ac
+longLabel H3K27Ac CUT&RUN signal (hFS vs primed)
 type bigWig
-bigDataUrl ../Data/bigWigs/H3K27Ac.fs.hFS3.hg38.ddup.uniq.RPGC.bs10.bw
-shortLabel H3K27Ac hFS3
-longLabel H3K27Ac CUT&RUN formative hFS3
 visibility full
+autoScale on
+maxHeightPixels 100:50:11
 
-track H3K27Ac_pr_H9
-type bigWig
-bigDataUrl ../Data/bigWigs/H3K27Ac.pr.H9.hg38.ddup.uniq.RPGC.bs10.bw
-shortLabel H3K27Ac H9
-longLabel H3K27Ac CUT&RUN primed H9
-visibility full
+    track H3K27Ac_fs_hFS1
+    parent H3K27Ac_comp
+    type bigWig
+    shortLabel hFS1
+    longLabel H3K27Ac formative hFS1
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K27Ac.fs.hFS1.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
 
-track H3K27Ac_pr_S6
+    track H3K27Ac_fs_hFS3
+    parent H3K27Ac_comp
+    type bigWig
+    shortLabel hFS3
+    longLabel H3K27Ac formative hFS3
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K27Ac.fs.hFS3.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K27Ac_pr_H9
+    parent H3K27Ac_comp
+    type bigWig
+    shortLabel H9
+    longLabel H3K27Ac primed H9
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K27Ac.pr.H9.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K27Ac_pr_S6
+    parent H3K27Ac_comp
+    type bigWig
+    shortLabel S6
+    longLabel H3K27Ac primed S6
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K27Ac.pr.S6.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+
+##########
+# H3K4me1
+##########
+track H3K4me1_comp
+compositeTrack on
+shortLabel H3K4me1
+longLabel H3K4me1 CUT&RUN signal (hFS vs primed)
 type bigWig
-bigDataUrl ../Data/bigWigs/H3K27Ac.pr.S6.hg38.ddup.uniq.RPGC.bs10.bw
-shortLabel H3K27Ac S6
-longLabel H3K27Ac CUT&RUN primed S6
 visibility full
+autoScale on
+maxHeightPixels 100:50:11
+
+    track H3K4me1_fs_hFS1
+    parent H3K4me1_comp
+    type bigWig
+    shortLabel hFS1
+    longLabel H3K4me1 formative hFS1
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K4me1.fs.hFS1.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K4me1_fs_hFS3
+    parent H3K4me1_comp
+    type bigWig
+    shortLabel hFS3
+    longLabel H3K4me1 formative hFS3
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K4me1.fs.hFS3.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K4me1_pr_H9
+    parent H3K4me1_comp
+    type bigWig
+    shortLabel H9
+    longLabel H3K4me1 primed H9
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K4me1.pr.H9.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K4me1_pr_S6
+    parent H3K4me1_comp
+    type bigWig
+    shortLabel S6
+    longLabel H3K4me1 primed S6
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K4me1.pr.S6.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+
+##########
+# H3K4me3
+##########
+track H3K4me3_comp
+compositeTrack on
+shortLabel H3K4me3
+longLabel H3K4me3 CUT&RUN signal (hFS vs primed)
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:50:11
+
+    track H3K4me3_fs_hFS1
+    parent H3K4me3_comp
+    type bigWig
+    shortLabel hFS1
+    longLabel H3K4me3 formative hFS1
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K4me3.fs.hFS1.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K4me3_fs_hFS3
+    parent H3K4me3_comp
+    type bigWig
+    shortLabel hFS3
+    longLabel H3K4me3 formative hFS3
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K4me3.fs.hFS3.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K4me3_pr_H9
+    parent H3K4me3_comp
+    type bigWig
+    shortLabel H9
+    longLabel H3K4me3 primed H9
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K4me3.pr.H9.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K4me3_pr_S6
+    parent H3K4me3_comp
+    type bigWig
+    shortLabel S6
+    longLabel H3K4me3 primed S6
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K4me3.pr.S6.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+
+###########
+# H3K27me3
+###########
+track H3K27me3_comp
+compositeTrack on
+shortLabel H3K27me3
+longLabel H3K27me3 CUT&RUN signal (hFS vs primed)
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:50:11
+
+    track H3K27me3_fs_hFS1
+    parent H3K27me3_comp
+    type bigWig
+    shortLabel hFS1
+    longLabel H3K27me3 formative hFS1
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K27me3.fs.hFS1.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K27me3_fs_hFS3
+    parent H3K27me3_comp
+    type bigWig
+    shortLabel hFS3
+    longLabel H3K27me3 formative hFS3
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K27me3.fs.hFS3.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K27me3_pr_H9
+    parent H3K27me3_comp
+    type bigWig
+    shortLabel H9
+    longLabel H3K27me3 primed H9
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K27me3.pr.H9.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track H3K27me3_pr_S6
+    parent H3K27me3_comp
+    type bigWig
+    shortLabel S6
+    longLabel H3K27me3 primed S6
+    bigDataUrl https://zenodo.org/records/18874953/files/H3K27me3.pr.S6.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+
+#######
+# SMAD2
+#######
+track SMAD2_comp
+compositeTrack on
+shortLabel SMAD2
+longLabel SMAD2 CUT&RUN signal (hFS vs primed)
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:50:11
+
+    track SMAD2_fs_hFS1
+    parent SMAD2_comp
+    type bigWig
+    shortLabel hFS1
+    longLabel SMAD2 formative hFS1
+    bigDataUrl https://zenodo.org/records/18874953/files/SMAD2.fs.hFS1.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track SMAD2_fs_hFS3
+    parent SMAD2_comp
+    type bigWig
+    shortLabel hFS3
+    longLabel SMAD2 formative hFS3
+    bigDataUrl https://zenodo.org/records/18874953/files/SMAD2.fs.hFS3.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track SMAD2_pr_H9
+    parent SMAD2_comp
+    type bigWig
+    shortLabel H9
+    longLabel SMAD2 primed H9
+    bigDataUrl https://zenodo.org/records/18874953/files/SMAD2.pr.H9.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track SMAD2_pr_S6
+    parent SMAD2_comp
+    type bigWig
+    shortLabel S6
+    longLabel SMAD2 primed S6
+    bigDataUrl https://zenodo.org/records/18874953/files/SMAD2.pr.S6.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+
+#######
+# SU2 (SUZ12)
+#######
+track SU2_comp
+compositeTrack on
+shortLabel SUZ12
+longLabel SUZ12 (SU2) CUT&RUN signal (hFS vs primed)
+type bigWig
+visibility full
+autoScale on
+maxHeightPixels 100:50:11
+
+    track SU2_fs_hFS1
+    parent SU2_comp
+    type bigWig
+    shortLabel hFS1
+    longLabel SUZ12 formative hFS1
+    bigDataUrl https://zenodo.org/records/18874953/files/SU2.fs.hFS1.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track SU2_fs_hFS3
+    parent SU2_comp
+    type bigWig
+    shortLabel hFS3
+    longLabel SUZ12 formative hFS3
+    bigDataUrl https://zenodo.org/records/18874953/files/SU2.fs.hFS3.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track SU2_pr_H9
+    parent SU2_comp
+    type bigWig
+    shortLabel H9
+    longLabel SUZ12 primed H9
+    bigDataUrl https://zenodo.org/records/18874953/files/SU2.pr.H9.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track SU2_pr_S6
+    parent SU2_comp
+    type bigWig
+    shortLabel S6
+    longLabel SUZ12 primed S6
+    bigDataUrl https://zenodo.org/records/18874953/files/SU2.pr.S6.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+
+#######
+# IgG control
+#######
+track IgG_comp
+compositeTrack on
+shortLabel IgG
+longLabel IgG control CUT&RUN signal (hFS vs primed)
+type bigWig
+visibility hide
+autoScale on
+maxHeightPixels 100:50:11
+
+    track IgG_fs_hFS1
+    parent IgG_comp
+    type bigWig
+    shortLabel hFS1
+    longLabel IgG formative hFS1
+    bigDataUrl https://zenodo.org/records/18874953/files/IgG.fs.hFS1.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track IgG_fs_hFS3
+    parent IgG_comp
+    type bigWig
+    shortLabel hFS3
+    longLabel IgG formative hFS3
+    bigDataUrl https://zenodo.org/records/18874953/files/IgG.fs.hFS3.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track IgG_pr_H9
+    parent IgG_comp
+    type bigWig
+    shortLabel H9
+    longLabel IgG primed H9
+    bigDataUrl https://zenodo.org/records/18874953/files/IgG.pr.H9.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
+
+    track IgG_pr_S6
+    parent IgG_comp
+    type bigWig
+    shortLabel S6
+    longLabel IgG primed S6
+    bigDataUrl https://zenodo.org/records/18874953/files/IgG.pr.S6.hg38.ddup.uniq.RPGC.bs10.bw?download=1
+    color 0,0,0
